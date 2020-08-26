@@ -23,6 +23,6 @@ app.post("/posts/:id/comments", (req, res) => {
   res.status(201).send(comments);
 });
 
-app.listen(400, () => {
+app.listen(4001, () => {
   console.log("Connected PORT: 4001");
 });
